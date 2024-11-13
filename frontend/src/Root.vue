@@ -39,9 +39,6 @@ function _load() {
   if (route.params.application_id) {
     application_id.value = route.params.application_id as UUID;
   }
-
-  console.log('organization_id', organization_id.value);
-  console.log('application_id', application_id.value);
 }
 
 onMounted(async () => {
